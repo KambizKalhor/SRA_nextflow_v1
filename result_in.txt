@@ -1,0 +1,322 @@
+results/
+├── 00_gz_input_files
+│   └── SRR7066495
+│       └── SRR7066495.fastq.gz
+├── 01_fastq_raw_files
+│   └── SRR7066495
+│       └── SRR7066495.fastq
+├── 02_fastq_dump_results
+│   └── SRR7066495
+│       ├── SRR7066495_1.fastq
+│       └── SRR7066495_2.fastq
+├── 03_first_quality_control_results
+│   └── SRR7066495
+│       ├── SRR7066495_1_fastqc.html
+│       ├── SRR7066495_1_fastqc.zip
+│       ├── SRR7066495_2_fastqc.html
+│       └── SRR7066495_2_fastqc.zip
+├── 04_trimmomatic_results
+│   └── SRR7066495
+│       ├── SRR7066495_TRIMMED_FORWARD_PAIRED_R1.fastq
+│       ├── SRR7066495_TRIMMED_FORWARD_UNPAIRED_R1.fastq
+│       ├── SRR7066495_TRIMMED_REVERSE_PAIRED_R2.fastq
+│       ├── SRR7066495_TRIMMED_REVERSE_UNPAIRED_R2.fastq
+│       └── SRR7066495_trimmomatic.log
+├── 05_second_quality_control_results
+│   └── SRR7066495
+│       ├── SRR7066495_TRIMMED_FORWARD_PAIRED_R1_fastqc.html
+│       ├── SRR7066495_TRIMMED_FORWARD_PAIRED_R1_fastqc.zip
+│       ├── SRR7066495_TRIMMED_REVERSE_PAIRED_R2_fastqc.html
+│       └── SRR7066495_TRIMMED_REVERSE_PAIRED_R2_fastqc.zip
+├── 06_metaspade_results
+│   └── SRR7066495
+│       ├── assembly_graph.fastg
+│       ├── assembly_graph_with_scaffolds.gfa
+│       ├── before_rr.fasta
+│       ├── contigs.fasta
+│       ├── contigs.paths
+│       ├── corrected
+│       │   ├── configs
+│       │   │   └── config.info
+│       │   ├── corrected.yaml
+│       │   ├── SRR7066495_TRIMMED_FORWARD_PAIRED_R1.00.0_0.cor.fastq.gz
+│       │   ├── SRR7066495_TRIMMED_REVERSE_PAIRED_R2.00.0_0.cor.fastq.gz
+│       │   └── SRR7066495_TRIMMED__unpaired.00.0_0.cor.fastq.gz
+│       ├── dataset.info
+│       ├── first_pe_contigs.fasta
+│       ├── input_dataset.yaml
+│       ├── K21
+│       │   ├── assembly_graph.fastg
+│       │   ├── assembly_graph_with_scaffolds.gfa
+│       │   ├── before_rr.fasta
+│       │   ├── configs
+│       │   │   ├── careful_mda_mode.info
+│       │   │   ├── careful_mode.info
+│       │   │   ├── config.info
+│       │   │   ├── construction.info
+│       │   │   ├── detail_info_printer.info
+│       │   │   ├── distance_estimation.info
+│       │   │   ├── large_genome_mode.info
+│       │   │   ├── mda_mode.info
+│       │   │   ├── meta_mode.info
+│       │   │   ├── moleculo_mode.info
+│       │   │   ├── pe_params.info
+│       │   │   ├── plasmid_mode.info
+│       │   │   ├── rna_fast_mode.info
+│       │   │   ├── rna_mode.info
+│       │   │   ├── simplification.info
+│       │   │   ├── toy.info
+│       │   │   └── tsa.info
+│       │   ├── final_contigs.fasta
+│       │   ├── final.lib_data
+│       │   └── simplified_contigs.fasta
+│       ├── K33
+│       │   ├── assembly_graph.fastg
+│       │   ├── assembly_graph_with_scaffolds.gfa
+│       │   ├── before_rr.fasta
+│       │   ├── configs
+│       │   │   ├── careful_mda_mode.info
+│       │   │   ├── careful_mode.info
+│       │   │   ├── config.info
+│       │   │   ├── construction.info
+│       │   │   ├── detail_info_printer.info
+│       │   │   ├── distance_estimation.info
+│       │   │   ├── large_genome_mode.info
+│       │   │   ├── mda_mode.info
+│       │   │   ├── meta_mode.info
+│       │   │   ├── moleculo_mode.info
+│       │   │   ├── pe_params.info
+│       │   │   ├── plasmid_mode.info
+│       │   │   ├── rna_fast_mode.info
+│       │   │   ├── rna_mode.info
+│       │   │   ├── simplification.info
+│       │   │   ├── toy.info
+│       │   │   └── tsa.info
+│       │   ├── final_contigs.fasta
+│       │   ├── final.lib_data
+│       │   └── simplified_contigs.fasta
+│       ├── K55
+│       │   ├── assembly_graph.fastg
+│       │   ├── assembly_graph_with_scaffolds.gfa
+│       │   ├── before_rr.fasta
+│       │   ├── configs
+│       │   │   ├── careful_mda_mode.info
+│       │   │   ├── careful_mode.info
+│       │   │   ├── config.info
+│       │   │   ├── construction.info
+│       │   │   ├── detail_info_printer.info
+│       │   │   ├── distance_estimation.info
+│       │   │   ├── large_genome_mode.info
+│       │   │   ├── mda_mode.info
+│       │   │   ├── meta_mode.info
+│       │   │   ├── moleculo_mode.info
+│       │   │   ├── pe_params.info
+│       │   │   ├── plasmid_mode.info
+│       │   │   ├── rna_fast_mode.info
+│       │   │   ├── rna_mode.info
+│       │   │   ├── simplification.info
+│       │   │   ├── toy.info
+│       │   │   └── tsa.info
+│       │   ├── final_contigs.fasta
+│       │   ├── final_contigs.paths
+│       │   ├── final.lib_data
+│       │   ├── first_pe_contigs.fasta
+│       │   ├── intermediate_contigs.fasta
+│       │   ├── path_extend
+│       │   ├── scaffolds.fasta
+│       │   ├── scaffolds.paths
+│       │   └── simplified_contigs.fasta
+│       ├── misc
+│       │   └── broken_scaffolds.fasta
+│       ├── params.txt
+│       ├── scaffolds.fasta
+│       ├── scaffolds.paths
+│       ├── spades.log
+│       └── tmp
+└── 07_metaquast_results
+    └── SRR7066495
+        ├── combined_reference
+        │   ├── aligned_stats
+        │   ├── basic_stats
+        │   │   └── gc.icarus.txt
+        │   ├── contigs_reports
+        │   │   ├── alignments_scaffolds.tsv
+        │   │   ├── all_alignments_scaffolds.tsv
+        │   │   ├── contigs_report_scaffolds.mis_contigs.info
+        │   │   ├── contigs_report_scaffolds.stderr
+        │   │   ├── contigs_report_scaffolds.stdout
+        │   │   ├── contigs_report_scaffolds.unaligned.info
+        │   │   ├── interspecies_translocations_by_refs_scaffolds.info
+        │   │   ├── minimap_output
+        │   │   │   ├── raw
+        │   │   │   │   ├── scaffolds.coords
+        │   │   │   │   ├── scaffolds.coords.filtered
+        │   │   │   │   ├── scaffolds.coords_tmp
+        │   │   │   │   ├── scaffolds.sf
+        │   │   │   │   ├── scaffolds.unaligned
+        │   │   │   │   └── scaffolds.used_snps
+        │   │   │   ├── scaffolds.coords
+        │   │   │   ├── scaffolds.coords.filtered
+        │   │   │   ├── scaffolds.coords_tmp
+        │   │   │   ├── scaffolds.sf
+        │   │   │   ├── scaffolds.unaligned
+        │   │   │   └── scaffolds.used_snps
+        │   │   ├── misassemblies_report.tex
+        │   │   ├── misassemblies_report.tsv
+        │   │   ├── misassemblies_report.txt
+        │   │   ├── scaffolds.mis_contigs.fa
+        │   │   ├── transposed_report_misassemblies.tex
+        │   │   ├── transposed_report_misassemblies.tsv
+        │   │   ├── transposed_report_misassemblies.txt
+        │   │   ├── unaligned_report.tex
+        │   │   ├── unaligned_report.tsv
+        │   │   ├── unaligned_report.txt
+        │   │   └── unique_contigs_scaffolds.tsv
+        │   ├── genome_stats
+        │   │   ├── genome_info.txt
+        │   │   └── scaffolds_gaps.txt
+        │   ├── icarus.html
+        │   ├── icarus_viewers
+        │   │   ├── alignment_viewer.html
+        │   │   ├── contig_size_viewer.html
+        │   │   ├── Klebsiella_pneumoniae.html
+        │   │   ├── Vibrio_diabolicus.html
+        │   │   └── Vibrio_parahaemolyticus.html
+        │   ├── quast.log
+        │   ├── report.html
+        │   ├── report.tex
+        │   ├── report.tsv
+        │   ├── report.txt
+        │   ├── transposed_report.tex
+        │   ├── transposed_report.tsv
+        │   └── transposed_report.txt
+        ├── icarus.html
+        ├── icarus_viewers
+        │   ├── alignment_viewer.html
+        │   └── contig_size_viewer.html
+        ├── krona_charts
+        │   ├── krona.err
+        │   ├── krona.log
+        │   └── scaffolds_taxonomy_chart.html
+        ├── metaquast.log
+        ├── not_aligned
+        │   ├── basic_stats
+        │   ├── icarus.html
+        │   ├── icarus_viewers
+        │   │   └── contig_size_viewer.html
+        │   ├── quast.log
+        │   ├── report.html
+        │   ├── report.tex
+        │   ├── report.tsv
+        │   ├── report.txt
+        │   ├── transposed_report.tex
+        │   ├── transposed_report.tsv
+        │   └── transposed_report.txt
+        ├── quast_downloaded_references
+        │   ├── blast.check_scaffolds
+        │   ├── blast.res_scaffolds
+        │   ├── Klebsiella_pneumoniae.fasta
+        │   ├── Vibrio_diabolicus.fasta
+        │   └── Vibrio_parahaemolyticus.fasta
+        ├── report.html
+        ├── runs_per_reference
+        │   └── Vibrio_parahaemolyticus
+        │       ├── aligned_stats
+        │       ├── basic_stats
+        │       │   └── gc.icarus.txt
+        │       ├── contigs_reports
+        │       │   ├── all_alignments_scaffolds.tsv
+        │       │   ├── contigs_report_scaffolds.mis_contigs.info
+        │       │   ├── contigs_report_scaffolds.stderr
+        │       │   ├── contigs_report_scaffolds.stdout
+        │       │   ├── contigs_report_scaffolds.unaligned.info
+        │       │   ├── minimap_output
+        │       │   │   ├── scaffolds.coords
+        │       │   │   ├── scaffolds.coords.filtered
+        │       │   │   ├── scaffolds.coords_tmp
+        │       │   │   ├── scaffolds.sf
+        │       │   │   ├── scaffolds.unaligned
+        │       │   │   └── scaffolds.used_snps
+        │       │   ├── misassemblies_report.tex
+        │       │   ├── misassemblies_report.tsv
+        │       │   ├── misassemblies_report.txt
+        │       │   ├── scaffolds_to_Vibrio_parahaemolyticus.mis_contigs.fa
+        │       │   ├── transposed_report_misassemblies.tex
+        │       │   ├── transposed_report_misassemblies.tsv
+        │       │   ├── transposed_report_misassemblies.txt
+        │       │   ├── unaligned_report.tex
+        │       │   ├── unaligned_report.tsv
+        │       │   └── unaligned_report.txt
+        │       ├── genome_stats
+        │       │   ├── genome_info.txt
+        │       │   └── scaffolds_gaps.txt
+        │       ├── icarus.html
+        │       ├── icarus_viewers
+        │       │   ├── alignment_viewer.html
+        │       │   └── contig_size_viewer.html
+        │       ├── quast.log
+        │       ├── report.html
+        │       ├── report.tex
+        │       ├── report.tsv
+        │       ├── report.txt
+        │       ├── transposed_report.tex
+        │       ├── transposed_report.tsv
+        │       └── transposed_report.txt
+        └── summary
+            ├── PDF
+            ├── TEX
+            │   ├── Duplication_ratio.tex
+            │   ├── Genome_fraction.tex
+            │   ├── Largest_alignment.tex
+            │   ├── Largest_contig.tex
+            │   ├── LGA50.tex
+            │   ├── Misassembled_contigs_length.tex
+            │   ├── NGA50.tex
+            │   ├── num_contigs.tex
+            │   ├── num_indels_per_100_kbp.tex
+            │   ├── num_misassemblies.tex
+            │   ├── num_mismatches_per_100_kbp.tex
+            │   ├── num_Ns_per_100_kbp.tex
+            │   ├── Total_aligned_length.tex
+            │   ├── Total_length_(ge_10000_bp).tex
+            │   ├── Total_length_(ge_1000_bp).tex
+            │   ├── Total_length_(ge_50000_bp).tex
+            │   └── Total_length.tex
+            ├── TSV
+            │   ├── Duplication_ratio.tsv
+            │   ├── Genome_fraction.tsv
+            │   ├── Largest_alignment.tsv
+            │   ├── Largest_contig.tsv
+            │   ├── LGA50.tsv
+            │   ├── Misassembled_contigs_length.tsv
+            │   ├── NGA50.tsv
+            │   ├── num_contigs.tsv
+            │   ├── num_indels_per_100_kbp.tsv
+            │   ├── num_misassemblies.tsv
+            │   ├── num_mismatches_per_100_kbp.tsv
+            │   ├── num_Ns_per_100_kbp.tsv
+            │   ├── Total_aligned_length.tsv
+            │   ├── Total_length_(ge_10000_bp).tsv
+            │   ├── Total_length_(ge_1000_bp).tsv
+            │   ├── Total_length_(ge_50000_bp).tsv
+            │   └── Total_length.tsv
+            └── TXT
+                ├── Duplication_ratio.txt
+                ├── Genome_fraction.txt
+                ├── Largest_alignment.txt
+                ├── Largest_contig.txt
+                ├── LGA50.txt
+                ├── Misassembled_contigs_length.txt
+                ├── NGA50.txt
+                ├── num_contigs.txt
+                ├── num_indels_per_100_kbp.txt
+                ├── num_misassemblies.txt
+                ├── num_mismatches_per_100_kbp.txt
+                ├── num_Ns_per_100_kbp.txt
+                ├── Total_aligned_length.txt
+                ├── Total_length_(ge_10000_bp).txt
+                ├── Total_length_(ge_1000_bp).txt
+                ├── Total_length_(ge_50000_bp).txt
+                └── Total_length.txt
+
+54 directories, 265 files

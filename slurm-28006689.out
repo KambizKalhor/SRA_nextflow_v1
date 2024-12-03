@@ -1,0 +1,174 @@
+==========================================
+SLURM_JOB_ID = 28006689
+SLURM_JOB_NODELIST = d05-[32-33]
+TMPDIR = /tmp/SLURM_28006689
+==========================================
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+[33mNextflow 24.10.2 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 23.10.1
+Launching `workflow.nf` [boring_goldberg] DSL2 - revision: 329baba73a
+
+FASTQ Processing Pipeline
+=========================
+input_dir    : /home1/kkalhor/nextflow/nextflow_project_backup_6/inputs
+gz_files : /home1/kkalhor/nextflow/nextflow_project_backup_6/results/00_gz_input_files
+raw_fastq_files : /home1/kkalhor/nextflow/nextflow_project_backup_6/results/01_fastq_raw_files
+
+[-        ] process > TRANSFER_GZ_FILES -
+[-        ] process > UNZIP_FILES       -
+[-        ] process > FASTQ_DUMP        -
+[-        ] process > FIRST_QC          -
+[-        ] process > TRIMMOMATIC       -
+[-        ] process > SECOND_QC         -
+[-        ] process > METASPADES        -
+[-        ] process > METAQUAST         -
+
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[f1/0bf0c4] process > SECOND_QC (1)         [100%] 1 of 1, cached: 1
+[-        ] process > METASPADES            -
+[-        ] process > METAQUAST             -
+
+executor >  slurm (3)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [ 50%] 1 of 2, cached: 1
+[2f/6f1360] process > METASPADES (1)        [  0%] 0 of 2
+[-        ] process > METAQUAST             -
+
+executor >  slurm (3)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [ 50%] 1 of 2, cached: 1
+[2f/6f1360] process > METASPADES (1)        [  0%] 0 of 2
+[-        ] process > METAQUAST             -
+
+executor >  slurm (3)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [  0%] 0 of 2
+[-        ] process > METAQUAST             -
+
+executor >  slurm (3)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [  0%] 0 of 2
+[-        ] process > METAQUAST             -
+
+executor >  slurm (3)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[89/993f60] process > METASPADES (2)        [ 50%] 1 of 2
+[-        ] process > METAQUAST             [  0%] 0 of 1
+
+executor >  slurm (4)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[89/993f60] process > METASPADES (2)        [ 50%] 1 of 2
+[b0/bb7518] process > METAQUAST (1)         [  0%] 0 of 1
+
+executor >  slurm (4)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[89/993f60] process > METASPADES (2)        [ 50%] 1 of 2
+[b0/bb7518] process > METAQUAST (1)         [  0%] 0 of 1
+
+executor >  slurm (4)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[89/993f60] process > METASPADES (2)        [ 50%] 1 of 2
+[b0/bb7518] process > METAQUAST (1)         [100%] 1 of 1
+
+executor >  slurm (4)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [100%] 2 of 2 ✔
+[b0/bb7518] process > METAQUAST (1)         [100%] 1 of 1
+
+executor >  slurm (5)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [100%] 2 of 2 ✔
+[b8/016d56] process > METAQUAST (2)         [ 50%] 1 of 2
+
+executor >  slurm (5)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [100%] 2 of 2 ✔
+[b8/016d56] process > METAQUAST (2)         [ 50%] 1 of 2
+
+executor >  slurm (5)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [100%] 2 of 2 ✔
+[b8/016d56] process > METAQUAST (2)         [100%] 2 of 2 ✔
+
+executor >  slurm (5)
+[e7/5a74e6] process > TRANSFER_GZ_FILES (2) [100%] 2 of 2, cached: 2 ✔
+[b8/c2b17e] process > UNZIP_FILES (1)       [100%] 2 of 2, cached: 2 ✔
+[c6/d52286] process > FASTQ_DUMP (1)        [100%] 2 of 2, cached: 2 ✔
+[1f/01e01b] process > FIRST_QC (1)          [100%] 2 of 2, cached: 2 ✔
+[01/c3542e] process > TRIMMOMATIC (1)       [100%] 2 of 2, cached: 2 ✔
+[b2/ce2579] process > SECOND_QC (2)         [100%] 2 of 2, cached: 1 ✔
+[2f/6f1360] process > METASPADES (1)        [100%] 2 of 2 ✔
+[b8/016d56] process > METAQUAST (2)         [100%] 2 of 2 ✔
+Pipeline completed at: 2024-11-30T21:55:36.824719-08:00
+Execution status: OK
+Completed at: 30-Nov-2024 21:55:36
+Duration    : 15m 37s
+CPU hours   : 2.0 (16.2% cached)
+Succeeded   : 5
+Cached      : 11
+
+
