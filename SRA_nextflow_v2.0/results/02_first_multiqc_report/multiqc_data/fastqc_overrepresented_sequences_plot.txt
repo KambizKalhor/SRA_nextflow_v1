@@ -1,0 +1,5 @@
+Sample	Top overrepresented sequence	Sum of remaining overrepresented sequences
+EA_040_23_15_R1	0.8	99.2
+EA_040_23_15_R2	1.2	98.8
+EA_081_23_D3_R1	0.8	99.2
+EA_081_23_D3_R2	0.8	99.2

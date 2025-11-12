@@ -1,0 +1,5 @@
+Sample	Unique Reads	Duplicate Reads
+EA_040_23_15_R1	239.0	11.0
+EA_040_23_15_R2	237.0	13.0
+EA_081_23_D3_R1	125.0	0.0
+EA_081_23_D3_R2	125.0	0.0

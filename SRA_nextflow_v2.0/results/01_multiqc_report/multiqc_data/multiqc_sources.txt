@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	EA_040_23_15_R1	/home1/kkalhor/git_repositories/SRA_nextflow_v2/work/52/d9ea864e9366df031cad4aaf256971/EA_040_23_15/EA_040_23_15_R1_fastqc.zip
+FastQC	all_sections	EA_040_23_15_R2	/home1/kkalhor/git_repositories/SRA_nextflow_v2/work/52/d9ea864e9366df031cad4aaf256971/EA_040_23_15/EA_040_23_15_R2_fastqc.zip
+FastQC	all_sections	EA_081_23_D3_R2	/home1/kkalhor/git_repositories/SRA_nextflow_v2/work/52/d9ea864e9366df031cad4aaf256971/EA_081_23_D3/EA_081_23_D3_R2_fastqc.zip
+FastQC	all_sections	EA_081_23_D3_R1	/home1/kkalhor/git_repositories/SRA_nextflow_v2/work/52/d9ea864e9366df031cad4aaf256971/EA_081_23_D3/EA_081_23_D3_R1_fastqc.zip

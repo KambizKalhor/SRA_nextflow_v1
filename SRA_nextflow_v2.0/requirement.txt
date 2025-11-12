@@ -1,0 +1,22 @@
+# you need to first install multiqc on CARC
+# first make an environment
+## what are the environment i have
+conda env list
+
+## create environment
+conda create --name multiqc_env
+
+## activate the environment
+conda activate multiqc_env
+
+## Now, install multiqc in this environment
+conda install multiqc
+
+
+## common errors ##
+# if there was an error on system is running out of resources to create threads, which leads to failures in using OpenBLAS. Here’s how you can troubleshoot and resolve this:
+# OpenBLAS is attempting to create too many threads (64 in this case). Limiting the number of threads can resolve the issue:
+export OPENBLAS_NUM_THREADS=4
+echo "export OPENBLAS_NUM_THREADS=4" >> ~/.bashrc
+source ~/.bashrc
+

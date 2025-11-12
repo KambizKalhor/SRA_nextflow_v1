@@ -1,0 +1,5 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+EA_040_23_15_R1	4.400000000000006	56.0	150.0	150	27.27272727272727	0.00025
+EA_040_23_15_R2	5.200000000000003	55.0	150.0	150	18.181818181818183	0.00025
+EA_081_23_D3_R1	0.0	50.0	150.0	150	36.36363636363637	0.000125
+EA_081_23_D3_R2	0.0	51.0	150.0	150	9.090909090909092	0.000125
