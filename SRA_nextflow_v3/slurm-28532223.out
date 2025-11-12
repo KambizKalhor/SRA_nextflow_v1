@@ -1,0 +1,27 @@
+==========================================
+SLURM_JOB_ID = 28532223
+SLURM_JOB_NODELIST = d05-41
+TMPDIR = /tmp/SLURM_28532223
+==========================================
+openjdk version "11" 2018-09-25
+OpenJDK Runtime Environment 18.9 (build 11+28)
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)
+curl: (7) Failed connect to www.nextflow.io:443; Operation now in progress
+N E X T F L O W  ~  version 23.10.1
+Launching `workflow.nf` [high_gutenberg] DSL2 - revision: 7f7c32b7b2
+
+FASTQ Processing Pipeline
+=========================
+input_dir    : /home1/kkalhor/git_repositories/SRA_nextflow_v3/inputs
+
+unknown recognition error type: groovyjarjarantlr4.v4.runtime.LexerNoViableAltException
+ERROR ~ Module compilation error
+- file : /home1/kkalhor/git_repositories/SRA_nextflow_v3/./modules/07_metabat2.nf
+- cause: token recognition error at: '(' @ line 16, column 10.
+           $(for r in ${reads}; do echo "-1 \$r"; done)
+            ^
+
+1 error
+
+
+ -- Check script 'workflow.nf' at line: 39 or see '.nextflow.log' file for more details
